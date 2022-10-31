@@ -1,0 +1,20 @@
+#profiles {
+  width: 343px;
+  height: 68px;
+  background: #eaecf0;
+  text-align: center;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#profiles a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 67px;
+  height: 20px;
+  color: #101828;
+}
