@@ -31,5 +31,32 @@
 }
 .sharebtn {
   margin-left: 75%;
-  margin-top: 25px;
+  margin-top: 15px;
+}
+
+.footer_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+.logo {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 20px;
+}
+.logov {
+  height: 18.55px;
+  width: 138.77px;
+}
+.logof {
+  height: 20px;
+  width: 213px;
+}
+.logoi {
+  width: 99.1px;
+  height: 24px;
+  margin-bottom: 15px;
 }
