@@ -3,7 +3,7 @@ import "./Button.css";
 function Button(props) {
   return (
     <a href={props.href}>
-      <button id="profiles">{props.title}</button>
+      <button className={props.id}>{props.title}</button>
     </a>
   );
 }
