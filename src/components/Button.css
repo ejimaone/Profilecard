@@ -1,4 +1,9 @@
-#profiles {
+.btn_zuri,
+.books,
+.book_python,
+.pitch,
+.book_design,
+.twitter {
   width: 343px;
   height: 68px;
   background: #eaecf0;
@@ -7,7 +12,7 @@
   border-radius: 8px;
   cursor: pointer;
 }
-#profiles a {
+.profiles a {
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
@@ -17,4 +22,8 @@
   width: 67px;
   height: 20px;
   color: #101828;
+}
+
+.twitter {
+  padding: 0 !important;
 }
