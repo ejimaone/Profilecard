@@ -9,7 +9,7 @@
   height: 28px;
 
   /* Text lg/Bold */
-
+  display: flex;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -18,19 +18,20 @@
   /* identical to box height, or 156% */
 
   text-align: center;
+  justify-content: center;
 
   color: #101828;
 }
 
 .profile_pic {
-  margin: -23px 35%;
+  margin: -23px 38%;
   width: 88px;
   height: 88px;
 
   border-radius: 275px;
 }
 .sharebtn {
-  margin-left: 75%;
+  margin-left: 85%;
   margin-top: 15px;
 }
 
