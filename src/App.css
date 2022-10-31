@@ -1,0 +1,62 @@
+.App {
+  width: 375px;
+  height: 892px;
+}
+
+.name {
+  margin-top: 40px;
+  width: 343px;
+  height: 28px;
+
+  /* Text lg/Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  color: #101828;
+}
+
+.profile_pic {
+  margin: -23px 35%;
+  width: 88px;
+  height: 88px;
+
+  border-radius: 275px;
+}
+.sharebtn {
+  margin-left: 75%;
+  margin-top: 15px;
+}
+
+.footer_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+.logo {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 20px;
+}
+.logov {
+  height: 18.55px;
+  width: 138.77px;
+}
+.logof {
+  height: 20px;
+  width: 213px;
+}
+.logoi {
+  width: 99.1px;
+  height: 24px;
+  margin-bottom: 15px;
+}
