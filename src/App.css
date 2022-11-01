@@ -76,7 +76,9 @@
     gap: 20px;
     margin-left: 20px;
     margin-top: 70px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
