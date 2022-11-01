@@ -9,5 +9,5 @@
 }
 
 #slack {
-  direction: none !important;
+  display: none !important;
 }
