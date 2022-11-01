@@ -1,11 +1,12 @@
 .App {
-  width: 375px;
+  /* width: 375px; */
   height: 892px;
+  width: 100%;
 }
 
 .name {
   margin-top: 40px;
-  width: 343px;
+  width: 100%;
   height: 28px;
 
   /* Text lg/Bold */
@@ -60,4 +61,22 @@
   width: 99.1px;
   height: 24px;
   margin-bottom: 15px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+  }
 }

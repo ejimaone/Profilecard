@@ -11,9 +11,15 @@ import vector from "./images/Vector.png";
 function App() {
   return (
     <div className="App">
-      <img src={sharebtn} alt="share" className="sharebtn"></img>
-      <img src={img} className="profile_pic" alt="Abdulwahab's "></img>
-      <div className="name">Abdulwahab Yusuf</div>
+      <div>
+        <img src={sharebtn} alt="share" className="sharebtn"></img>
+      </div>
+      <div className="pic">
+        <img src={img} className="profile_pic" alt="Abdulwahab's "></img>
+      </div>
+      <div className="name">
+        <p>Abdulwahab Yusuf</p>
+      </div>
       <Cards />
       <div className="footer_image">
         <img src={slack} alt="slack"></img>
