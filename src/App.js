@@ -15,7 +15,7 @@ function App() {
         <img src={sharebtn} alt="share" className="sharebtn"></img>
       </div>
       <div className="pic">
-        <img src={img} className="profile_pic" alt="Abdulwahab's "></img>
+        <img src={img} className="profile__img" alt="Abdulwahab's "></img>
       </div>
       <div className="name">
         <p>Abdulwahab Yusuf</p>

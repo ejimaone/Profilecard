@@ -4,6 +4,7 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
+      <Button href="slack.com" id="slack" title="Ejimaone" />
       <Button
         href="https://twitter.com/Ejima_one"
         title="Twitter Link"
@@ -12,13 +13,13 @@ function Cards() {
       <Button
         href="https://training.zuri.team/"
         title="Zuri Team"
-        id="btn_zuri"
+        id="btn__zuri"
       />
       <Button href="https://books.zuri.team/" title="Zuri Books" id="books" />
       <Button
         href="https://books.zuri.team/python-for-beginners?ref_id=Ejimaone"
         title="Python Books"
-        id="book_python "
+        id="book__python "
       />
       <Button
         href="https://background.zuri.team"
@@ -28,7 +29,7 @@ function Cards() {
       <Button
         href="https://books.zuri.team/design-rules "
         title="Design Books"
-        id="book_design"
+        id="book__design"
       />
     </div>
   );
